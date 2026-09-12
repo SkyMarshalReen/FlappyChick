@@ -22,8 +22,10 @@ FONT_BIG = pygame.font.Font(None, 64)
 FONT_MEDIUM = pygame.font.Font(None, 40)
 FONT_SMALL = pygame.font.Font(None, 28)
 
-HIGH_SCORE_FILE = Path("highscore.txt")
-SOUND_DIR = Path("sounds")
+BASE_DIR = Path(__file__).resolve().parent
+
+HIGH_SCORE_FILE = BASE_DIR / "highscore.txt"
+SOUND_DIR = BASE_DIR / "sounds"
 
 SKY = (135, 206, 235)
 CLOUD = (245, 245, 245)
