@@ -96,4 +96,4 @@ The goal was to create a complete playable game with simple physics, collision d
 
 ## Screenshots
 
-![Flappy Bird gameplay](screenshots/game.png)
+![Flappy Bird gameplay](screenshot-2026-09-12_20-54-40.png)
