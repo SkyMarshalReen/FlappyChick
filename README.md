@@ -1,4 +1,4 @@
-# Flappy Bird
+# Flappy Chick
 
 A small Flappy Bird-style game written in Python with Pygame.
 

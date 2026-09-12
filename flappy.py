@@ -14,7 +14,7 @@ GROUND_HEIGHT = 90
 FPS = 60
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Flappy Bird")
+pygame.display.set_caption("Flappy Chick")
 
 clock = pygame.time.Clock()
 
@@ -338,7 +338,7 @@ def draw_score(score, high_score):
 
 def draw_start_screen():
     title = FONT_BIG.render(
-        "Flappy Bird",
+        "Flappy Chick",
         True,
         BLACK,
     )
